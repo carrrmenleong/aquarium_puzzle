@@ -1,0 +1,36 @@
+#BlueJ class context
+comment0.target=Aquarium
+comment1.params=filename
+comment1.target=Aquarium(java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Aquarium.\ \r\n\ Creates,\ initialises,\ and\ populates\ all\ of\ the\ fields.\r\n
+comment10.params=r\ c
+comment10.target=void\ rightClick(int,\ int)
+comment10.text=\r\n\ Performs\ a\ right\ click\ on\ Square\ r,c\ if\ the\ indices\ are\ legal,\ o/w\ does\ nothing.\ \r\n\ An\ air\ space\ becomes\ empty;\ other\ spaces\ become\ air.\ \r\n
+comment11.params=
+comment11.target=void\ clear()
+comment11.text=\r\n\ Empties\ all\ of\ the\ spaces.\r\n
+comment2.params=
+comment2.target=Aquarium()
+comment2.text=\r\n\ Uses\ the\ provided\ example\ file\ on\ the\ LMS\ page.\r\n
+comment3.params=s
+comment3.target=int[]\ parseLine(java.lang.String)
+comment3.text=\r\n\ Returns\ an\ array\ containing\ the\ ints\ in\ s,\ \r\n\ each\ of\ which\ is\ separated\ by\ one\ space.\ \r\n\ e.g.\ if\ s\ \=\ "1\ 299\ 34\ 5",\ it\ will\ return\ {1,299,34,5}\ \r\n
+comment4.params=
+comment4.target=int\ getSize()
+comment4.text=\r\n\ Returns\ the\ size\ of\ the\ puzzle.\r\n
+comment5.params=
+comment5.target=int[]\ getColumnTotals()
+comment5.text=\r\n\ Returns\ the\ column\ totals.\r\n
+comment6.params=
+comment6.target=int[]\ getRowTotals()
+comment6.text=\r\n\ Returns\ the\ row\ totals.\r\n
+comment7.params=
+comment7.target=int[][]\ getAquariums()
+comment7.text=\r\n\ Returns\ the\ board\ in\ aquariums.\r\n
+comment8.params=
+comment8.target=Space[][]\ getSpaces()
+comment8.text=\r\n\ Returns\ the\ board\ in\ spaces.\r\n
+comment9.params=r\ c
+comment9.target=void\ leftClick(int,\ int)
+comment9.text=\r\n\ Performs\ a\ left\ click\ on\ Square\ r,c\ if\ the\ indices\ are\ legal,\ o/w\ does\ nothing.\ \r\n\ A\ water\ space\ becomes\ empty;\ other\ spaces\ become\ water.\ \r\n
+numComments=12
